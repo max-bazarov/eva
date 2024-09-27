@@ -19,7 +19,7 @@
 }
 
 :root {
-    --text-color: rgba(50, 50, 50, 1);
+    --text-color: rgb(30, 30, 30);
     --background-color: rgb(255, 250, 235);
     --link-color: rgb(255, 255, 255);
     --link-bg: var(--text-color);
@@ -28,6 +28,7 @@
     --mark-color-purple: rgb(233, 225, 255);
     --mark-color-green: rgb(223, 238, 215);
     --mark-color-pink: rgb(255, 225, 225);
+    --mark-color-blue: rgb(230, 234, 255);
 }
 
 *::selection {
@@ -88,6 +89,10 @@ mark {
 
 .mark-pink {
     background-color: var(--mark-color-pink);
+}
+
+.mark-blue {
+    background-color: var(--mark-color-blue);
 }
 
 .symbol-break {
@@ -220,8 +225,8 @@ ul li {
 }
 
 .max {
-    font-family: 'Caveat';
-    font-size: 1.1em;
+    /* color: rgb(100, 100, 100); */
+    font-size: 0.8em;
 }
 
 @media screen and (max-width: 768px) {
