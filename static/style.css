@@ -247,4 +247,8 @@ ul li {
         width: 95%;
         margin: 1em auto;
     }
+
+    .ds__stack.XXL {
+        display: none;
+    }
 }
