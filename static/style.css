@@ -58,7 +58,7 @@ body {
 }
 
 section {
-    width: 60%;
+    width: 65%;
     max-width: 800px;
     margin: 0 auto 2em auto;
 
@@ -238,8 +238,8 @@ ul li {
 
     .main-image {
         position: static;
-        width: 100%;
         height: 70vh;
+        width: 100%;
         margin-bottom: 2em;
     }
 
